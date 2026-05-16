@@ -355,5 +355,5 @@ for i, (_, movie) in enumerate(all_movies.iterrows()):
     </div>
     """
 
-# Close the overarching grid block container and render everything flawlessly at once
+# Close the overarching grid container and render everything smoothly at once
 st.markdown(grid_html + "</div>", unsafe_allow_html=True)
